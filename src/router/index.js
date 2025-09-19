@@ -6,6 +6,7 @@ import Contact from "../pages/Contact"
 import District from "../pages/District"
 import DistrictCreate from "../pages/DistrictCreate"
 import DistrictEdit from "../pages/DistictEdit"
+import Test from "../pages/test"
 
 function MyRouter(){
     return(
@@ -16,6 +17,7 @@ function MyRouter(){
             <Route path="/district"  element={<District />} />
             <Route path="/district/create" element={<DistrictCreate />} />
             <Route path="/district/:id/edit" element={<DistrictEdit/>}/>
+            <Route path="/test" element={<Test/>}/>
         </Routes>
     )
 }
